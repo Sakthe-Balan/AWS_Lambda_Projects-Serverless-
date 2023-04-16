@@ -1,5 +1,6 @@
 # AWS_Lambda_Projects-Serverless-
-1)Serverless Web Scraper using Lambda(Code Present in the master branch)</br>
+1)
+##Serverless Web Scraper using Lambda(Code Present in the master branch)</br>
 built a web scraper using AWS Lambda. The scraper appears to scrape the course titles, URLs, and instructor names from the website of a university, and stores the data in an AWS DynamoDB table.</br>
 
 The scraper is implemented using AWS Lambda, which is a serverless computing service that allows you to run code without having to manage servers. The code is triggered by an AWS CloudWatch Event on a scheduled basis, so that it runs at regular intervals to ensure that the data is up-to-date.</br>
@@ -14,8 +15,9 @@ It uses the requests library to make HTTP requests to the website being scraped.
 It uses the BeautifulSoup library to parse the HTML response and extract the course data.</br>
 It uses AWS DynamoDB to store the scraped course data.</br>
 It uses the boto3 DynamoDB client to interact with the DynamoDB table.</br>
-It is written in Python, a widely-used programming language with a large number of libraries and frameworks available.</br>
-2)# EC2 Instance Start-Stop Lambda Function
+It is written in Python, a widely-used programming language with a large number of libraries and frameworks available.</br></br?
+2)
+## EC2 Instance Start-Stop Lambda Function
 
 This Lambda function starts and stops an EC2 instance based on a CloudWatch event rule. The function is triggered by a CloudWatch event at a specified time, and uses the AWS SDK for Python (boto3) to start or stop an EC2 instance based on the event.
 
