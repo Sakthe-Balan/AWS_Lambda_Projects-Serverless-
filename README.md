@@ -1,4 +1,5 @@
-Serverless Web Scraper using Lambda</br>
+## Serverless Web Scraper using Lambda
+</br>
 built a web scraper using AWS Lambda. The scraper appears to scrape the course titles, URLs, and instructor names from the website of a university, and stores the data in an AWS DynamoDB table.</br>
 
 The scraper is implemented using AWS Lambda, which is a serverless computing service that allows you to run code without having to manage servers. The code is triggered by an AWS CloudWatch Event on a scheduled basis, so that it runs at regular intervals to ensure that the data is up-to-date.</br>
